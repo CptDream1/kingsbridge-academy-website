@@ -151,7 +151,7 @@ const About = () => {
             <div className="bg-card p-8 rounded-lg border border-border">
               <h3 className="text-primary mb-4">Founder, Director & Principal Tutor</h3>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Our academy is led by our Founder, Director and Principal Tutor, Choudhry Zeeshan Khan who
+                Our academy is led by our Founder, Director and Principal Tutor, Choudhry Zeeshan Khan, who
                 brings a passion for British English education and a commitment
                 to helping students develop genuine communication confidence.
                 Every aspect of our curriculum, from session structure to

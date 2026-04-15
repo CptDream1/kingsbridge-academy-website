@@ -64,7 +64,7 @@ const Contact = () => {
       {/* Contact Section */}
       <section className="py-20 bg-off-white">
         <div className="section-container">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div className="grid place-items-center place-content-center gap-12">
             {/* Contact Information */}
             <div>
               <SectionHeading
@@ -118,7 +118,7 @@ const Contact = () => {
             </div>
 
             {/* Contact Form */}
-            <div>
+            {/* <div>
               <SectionHeading
                 title="Send a Message"
                 centered={false}
@@ -209,7 +209,7 @@ const Contact = () => {
                   </Button>
                 </form>
               )}
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

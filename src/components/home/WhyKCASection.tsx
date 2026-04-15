@@ -32,7 +32,7 @@ const features = [
     icon: Globe,
     title: "Live Online Sessions",
     description:
-      "Join from anywhere in the GCC region. All sessions are delivered live by experienced tutors for real-time interaction.",
+      "Join from anywhere in the world. All sessions are delivered live by experienced tutors for real-time interaction.",
   },
   {
     icon: Award,

@@ -30,7 +30,7 @@ const skills = [
   {
     title: "Listening Comprehension",
     description:
-      "Improve your ability to understand different British accents and speaking styles.",
+      "Improve your ability to understand different British accents and speaking styles through interactive & enjoyable activities in our sessions.",
   },
 ];
 

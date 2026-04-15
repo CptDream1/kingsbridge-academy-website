@@ -7,39 +7,39 @@ import StepCard from "@/components/ui/StepCard";
 const steps = [
   {
     step: 1,
-    title: "Apply Online",
+    title: "Submit Your Application",
     description:
-      "Complete our online application form with your details, English proficiency level, and learning goals. Our team will review your application promptly.",
+      "Submit your application with your personal details, background, and reason for wanting to join KCA.",
   },
   {
     step: 2,
-    title: "Assessment & Placement",
+    title: "English Level Test",
     description:
-      "We assess your current English level and learning objectives to ensure you are placed in the most appropriate group for your development.",
+      "Complete a short 15-minute English level test so KCA can assess your current level and assess your suitability for the academy.",
   },
   {
     step: 3,
-    title: "Group Allocation",
+    title: "Short Interview",
     description:
-      "You will be assigned to a small group of 6–8 students at a similar level. Small groups ensure maximum speaking practice and personalised attention.",
+      "Attend a short interview so KCA can assess your communication, confidence, commitment, and overall suitability.",
   },
   {
     step: 4,
-    title: "Live Sessions Begin",
+    title: "Identity Verification",
     description:
-      "Attend two 90-minute live sessions per week. Each session is interactive, engaging, and designed to build your skills progressively.",
+      "Provide a valid photo ID for identity verification as part of the enrolment process. Students aged 16–17 may also be asked to provide parent/guardian ID and written consent.",
   },
   {
     step: 5,
-    title: "Ongoing Assessment & Feedback",
+    title: "Acceptance & Payment",
     description:
-      "Receive regular feedback on your progress throughout the course. Your participation and development are monitored to ensure you achieve your goals.",
+      "Once accepted, students receive payment details and onboarding guidance. Monthly payment is required to secure and keep their place. Places are limited and first come, first confirmed.",
   },
   {
     step: 6,
-    title: "Final Assessments & Certification",
+    title: "Tech & Setup Requirements",
     description:
-      "Complete your final assessments including speaking, written, and coursework components. Students who meet all requirements receive their certificate of completion.",
+      "Before starting, ensure you have a stable internet connection, microphone, camera, quiet learning space, and a laptop or desktop where possible. Keep a notebook and pen for personal notes, vocabulary, feedback, and progress throughout the course.",
   },
 ];
 
@@ -69,8 +69,8 @@ const HowItWorks = () => {
       <section className="py-20 bg-off-white">
         <div className="section-container">
           <SectionHeading
-            title="Step by Step"
-            subtitle="A clear, structured path from enrolment to certification."
+            title="Enrolment Process"
+            subtitle="Everything you need to know to get started with KCA."
           />
 
           <div className="max-w-3xl mx-auto">
@@ -88,74 +88,6 @@ const HowItWorks = () => {
                   )}
                 </div>
               ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* What to Expect */}
-      <section className="py-20 bg-background">
-        <div className="section-container">
-          <SectionHeading
-            title="What to Expect"
-            subtitle="Understanding what your learning experience will look like."
-          />
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div className="academy-card">
-              <h4 className="text-lg font-serif text-primary mb-4">
-                During Sessions
-              </h4>
-              <ul className="space-y-3 text-muted-foreground text-sm">
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 bg-gold rounded-full mt-2 flex-shrink-0" />
-                  Interactive discussions on varied topics
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 bg-gold rounded-full mt-2 flex-shrink-0" />
-                  Pronunciation practice and correction
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 bg-gold rounded-full mt-2 flex-shrink-0" />
-                  Role-plays and real-world scenarios
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 bg-gold rounded-full mt-2 flex-shrink-0" />
-                  Vocabulary building exercises
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 bg-gold rounded-full mt-2 flex-shrink-0" />
-                  Confidence-building activities
-                </li>
-              </ul>
-            </div>
-
-            <div className="academy-card">
-              <h4 className="text-lg font-serif text-primary mb-4">
-                Between Sessions
-              </h4>
-              <ul className="space-y-3 text-muted-foreground text-sm">
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 bg-gold rounded-full mt-2 flex-shrink-0" />
-                  Practice assignments to reinforce learning
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 bg-gold rounded-full mt-2 flex-shrink-0" />
-                  Listening exercises with British English content
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 bg-gold rounded-full mt-2 flex-shrink-0" />
-                  Self-study materials and resources
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 bg-gold rounded-full mt-2 flex-shrink-0" />
-                  Preparation for upcoming topics
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 bg-gold rounded-full mt-2 flex-shrink-0" />
-                  Coursework completion
-                </li>
-              </ul>
             </div>
           </div>
         </div>

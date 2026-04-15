@@ -10,7 +10,7 @@ const CTASection = () => {
         </h2>
         <div className="gold-divider mb-6" />
         <p className="text-off-white/80 max-w-2xl mx-auto mb-8 text-lg">
-          Join students across the GCC region who are developing confident
+          Join students across the world who are developing confident
           British English communication skills with Kingsbridge Communication
           Academy.
         </p>

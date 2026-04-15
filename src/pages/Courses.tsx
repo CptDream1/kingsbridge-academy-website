@@ -36,14 +36,19 @@ const assessmentComponents = [
       "Active engagement throughout the course, contributing to discussions and activities.",
   },
   {
+    title: "Group Presentation",
+    description:
+      "A group presentation to evaluate communication, confidence, and presentation skills.",
+  },
+  {
     title: "Final Written Assessment",
     description:
       "A written component evaluating comprehension and written communication.",
   },
-  {
-    title: "Coursework Submission",
-    description: "Completion of assigned tasks demonstrating skill application.",
-  },
+  // {
+  //   title: "Coursework Submission",
+  //   description: "Completion of assigned tasks demonstrating skill application.",
+  // },
   {
     title: "Final Speaking Assessment",
     description:
@@ -88,7 +93,9 @@ const Courses = () => {
               <div className="text-3xl font-serif font-bold text-primary mb-2">
                 12
               </div>
-              <div className="text-muted-foreground text-sm">Weeks Duration</div>
+              <div className="text-muted-foreground text-sm">
+                Weeks Duration
+              </div>
             </div>
             <div className="academy-card text-center">
               <Clock className="w-10 h-10 text-primary mx-auto mb-4" />
@@ -142,7 +149,7 @@ const Courses = () => {
               <SectionHeading
                 title="Who Is This Course For?"
                 centered={false}
-                subtitle="Our course is designed for students based in GCC countries who are committed to developing their British English speaking skills."
+                subtitle="Our course is designed for students, professionals and anyone else wanting to improve their English who is committed to developing their British English skills from any country in the world and from the comfort of their own home:"
               />
 
               <ul className="space-y-3">
@@ -198,7 +205,7 @@ const Courses = () => {
           <div className="mt-12 p-6 bg-primary rounded-lg max-w-3xl mx-auto text-center">
             <p className="text-off-white leading-relaxed">
               Certification is issued only to students who meet attendance,
-              participation, and assessment requirements.
+              participation, and assessment requirements subject to KCA final approval.
             </p>
           </div>
         </div>
@@ -213,38 +220,85 @@ const Courses = () => {
             light
           />
 
-          <div className="max-w-lg mx-auto">
-            <div className="bg-navy-light/50 rounded-lg border border-navy-light overflow-hidden">
-              <div className="p-8 text-center">
-                <div className="flex items-center justify-center gap-2 mb-4">
-                  <PoundSterling className="w-8 h-8 text-gold" />
-                  <span className="text-5xl font-serif font-bold text-off-white">
-                    24
-                  </span>
-                  <span className="text-off-white/70 text-lg">
-                    GBP per session
-                  </span>
+          <div className="flex justify-center items-center flex-col lg:flex-row gap-10 lg:gap-12">
+            <div className="max-w-lg">
+              <div className="bg-navy-light/50 rounded-lg border border-navy-light overflow-hidden">
+                <div className="p-8 text-center">
+                  <div className="flex items-center justify-center gap-2 mb-4">
+                    <PoundSterling className="w-8 h-8 text-gold" />
+                    <span className="text-5xl font-serif font-bold text-off-white">
+                      24
+                    </span>
+                    <span className="text-off-white/70 text-lg">
+                      GBP per session
+                    </span>
+                  </div>
+                  <div className="gold-divider mb-6" />
                 </div>
-                <div className="gold-divider mb-6" />
+
+                <div className="bg-navy-dark/50 p-6">
+                  <div className="space-y-4">
+                    <div className="flex justify-between text-off-white">
+                      <span>Monthly fee (8 sessions)</span>
+                      <span className="font-semibold">£192 GBP</span>
+                    </div>
+                    <div className="flex justify-between text-off-white">
+                      <span>Full course (24 sessions)</span>
+                      <span className="font-semibold">£576 GBP</span>
+                    </div>
+                  </div>
+
+                  <div className="mt-6 pt-6 border-t border-navy-light">
+                    <p className="text-off-white/70 text-sm leading-relaxed">
+                      Fees are paid monthly in advance. Each month must be paid
+                      before that month's sessions begin. All students are expected to enrol at this rate/fees unless you qualify for The KCA Global Access & Supported Places Scheme. Please see the special reduced rates/fees on the right.  
+                    </p>
+                  </div>
+                </div>
               </div>
-
-              <div className="bg-navy-dark/50 p-6">
-                <div className="space-y-4">
-                  <div className="flex justify-between text-off-white">
-                    <span>Monthly fee (8 sessions)</span>
-                    <span className="font-semibold">£192 GBP</span>
+            </div>
+            <div className="max-w-lg">
+              <div className="bg-navy-light/50 rounded-lg border border-navy-light overflow-hidden">
+                <div className="p-8 text-center">
+                  <div className="flex items-center justify-center gap-2 mb-4">
+                    <PoundSterling className="w-8 h-8 text-gold" />
+                    <span className="text-5xl font-serif font-bold text-off-white">
+                      15
+                    </span>
+                    <span className="text-off-white/70 text-lg">
+                      GBP per session
+                    </span>
                   </div>
-                  <div className="flex justify-between text-off-white">
-                    <span>Full course (24 sessions)</span>
-                    <span className="font-semibold">£576 GBP</span>
-                  </div>
+                  <div className="gold-divider mb-6" />
                 </div>
 
-                <div className="mt-6 pt-6 border-t border-navy-light">
-                  <p className="text-off-white/70 text-sm leading-relaxed">
-                    Fees are paid monthly in advance. Each month must be paid
-                    before that month's sessions begin.
-                  </p>
+                <div className="bg-navy-dark/50 p-6">
+                  <div className="space-y-4">
+                    <div className="flex justify-between text-off-white">
+                      <span>Monthly fee (8 sessions)</span>
+                      <span className="font-semibold">£120 GBP</span>
+                    </div>
+                    <div className="flex justify-between text-off-white">
+                      <span>Full course (24 sessions)</span>
+                      <span className="font-semibold">£360 GBP</span>
+                    </div>
+                  </div>
+
+                  <div className="mt-6 pt-6 border-t border-navy-light">
+                    <p className="text-off-white/70 text-sm leading-relaxed">
+                      Specially reduced rates for students in lower-income
+                      countries for those with genuine financial needs subject to KCA final approval during detailed enrolment process — same expert coaching, more accessible pricing.
+                      Fees are paid monthly in advance.{" "}
+                      <a
+                        href="/documents/KCA Global Support Access Scheme list.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gold underline underline-offset-2 hover:text-off-white transition-colors"
+                      >
+                        Learn more to see if you qualify.
+                      </a>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -253,7 +307,7 @@ const Courses = () => {
       </section>
 
       {/* Coming Soon */}
-      <section className="py-20 bg-off-white">
+      {/* <section className="py-20 bg-off-white">
         <div className="section-container">
           <SectionHeading
             title="Future Courses"
@@ -287,7 +341,7 @@ const Courses = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA */}
       <section className="py-20 bg-charcoal">

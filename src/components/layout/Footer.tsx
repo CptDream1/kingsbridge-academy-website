@@ -18,7 +18,7 @@ const Footer = () => {
             />
             <p className="text-sm text-muted-foreground leading-relaxed">
               A UK-branded online British English speaking academy delivering
-              live, structured courses to students across the GCC region.
+              live, structured courses to students across the world.
             </p>
           </div>
 
@@ -105,11 +105,22 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-navy-light">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-sm text-muted-foreground">
-              © {currentYear} Kingsbridge Communication Academy. All rights reserved.
-            </p>
-            <div className="flex gap-6">
+          <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-6">
+            <div className="text-sm text-muted-foreground space-y-2 text-center md:text-left max-w-3xl leading-relaxed">
+              <p>
+                © {currentYear} Kingsbridge Communication Academy™. All rights reserved.
+              </p>
+              <p>
+                All course materials, documents, curriculum, logos, policies, website content,
+                recordings, and teaching resources are the intellectual property of Kingsbridge
+                Communication Academy™.
+              </p>
+              <p>
+                No part may be copied, reproduced, distributed, or used without written
+                permission.
+              </p>
+            </div>
+            <div className="flex gap-6 shrink-0">
               <Link to="/policies" className="text-sm text-muted-foreground hover:text-gold transition-colors">
                 Legal & Policies
               </Link>

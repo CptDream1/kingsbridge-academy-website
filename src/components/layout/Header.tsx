@@ -25,16 +25,16 @@ const Header = () => {
       <div className="section-container">
         <div className="flex items-center justify-between py-4">
           {/* Logo - Horizontal on desktop, stacked/crest on mobile */}
-          <Link to="/" className="flex-shrink-0">
+          <Link to="/" className="flex-shrink-0 block leading-none">
             <img
               src={logoHorizontal}
               alt="KCA – Kingsbridge Communication Academy"
-              className="hidden md:block h-14 w-auto"
+              className="hidden md:block h-[3.60rem] w-auto [filter:drop-shadow(0_0_0.01px_rgba(248,250,252,0.95))_drop-shadow(0_0_1.5px_rgba(248,250,252,0.45))]"
             />
             <img
               src={logoStacked}
               alt="Kingsbridge Communication Academy"
-              className="md:hidden h-12 w-auto"
+              className="md:hidden h-14 w-auto [filter:drop-shadow(0_0_0.5px_rgba(248,250,252,0.95))_drop-shadow(0_0_1.5px_rgba(248,250,252,0.45))]"
             />
           </Link>
 

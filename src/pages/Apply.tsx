@@ -105,7 +105,7 @@ const Apply = () => {
                 </li>
                 <li className="flex items-start gap-4">
                   <span className="w-2 h-2 bg-gold rounded-full mt-2 flex-shrink-0" />
-                  <span>Current English proficiency level (self-assessed)</span>
+                  <span>Current English proficiency level (assessed by KCA)</span>
                 </li>
                 <li className="flex items-start gap-4">
                   <span className="w-2 h-2 bg-gold rounded-full mt-2 flex-shrink-0" />
@@ -113,7 +113,7 @@ const Apply = () => {
                 </li>
                 <li className="flex items-start gap-4">
                   <span className="w-2 h-2 bg-gold rounded-full mt-2 flex-shrink-0" />
-                  <span>Preferred schedule availability</span>
+                  <span>Photographic ID for identity verification</span>
                 </li>
               </ul>
 

@@ -14,12 +14,12 @@ const assessments = [
     description:
       "A final written component to evaluate comprehension and written communication skills.",
   },
-  {
-    icon: FileText,
-    title: "Coursework Submission",
-    description:
-      "Completion of assigned coursework demonstrating application of learned skills.",
-  },
+  // {
+  //   icon: FileText,
+  //   title: "Coursework Submission",
+  //   description:
+  //     "Completion of assigned coursework demonstrating application of learned skills.",
+  // },
   {
     icon: Award,
     title: "Speaking Assessment",
@@ -37,7 +37,7 @@ const AssessmentSection = () => {
           subtitle="Students who meet all attendance, participation, and assessment requirements receive a certificate of completion."
         />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {assessments.map((item) => (
             <div key={item.title} className="academy-card text-center">
               <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
@@ -58,7 +58,7 @@ const AssessmentSection = () => {
             Certification is issued only to students who meet attendance,
             participation, and assessment requirements. This ensures our
             certificates represent genuine achievement in British English
-            communication.
+            communication. More information will be provided by KCA upon successful enrolment on the course. Certification is subject to final approval by KCA.
           </p>
         </div>
       </div>

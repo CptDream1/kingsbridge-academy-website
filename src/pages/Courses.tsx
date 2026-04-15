@@ -251,7 +251,7 @@ const Courses = () => {
                   <div className="mt-6 pt-6 border-t border-navy-light">
                     <p className="text-off-white/70 text-sm leading-relaxed">
                       Fees are paid monthly in advance. Each month must be paid
-                      before that month's sessions begin. All students are expected to enrol at this rate/fees unless you qualify for The KCA Global Access & Supported Places Scheme. Please see the special reduced rates/fees on the right.  
+                      before that month's sessions begin. All students are expected to enrol at this rate/fee unless you qualify for The KCA Global Access & Supported Places Scheme. Please see the special reduced rates/fees.  
                     </p>
                   </div>
                 </div>

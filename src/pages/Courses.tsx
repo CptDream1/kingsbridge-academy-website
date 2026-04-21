@@ -227,7 +227,7 @@ const Courses = () => {
                   <div className="flex items-center justify-center gap-2 mb-4">
                     <PoundSterling className="w-8 h-8 text-gold" />
                     <span className="text-5xl font-serif font-bold text-off-white">
-                      24
+                      20
                     </span>
                     <span className="text-off-white/70 text-lg">
                       GBP per session
@@ -240,11 +240,11 @@ const Courses = () => {
                   <div className="space-y-4">
                     <div className="flex justify-between text-off-white">
                       <span>Monthly fee (8 sessions)</span>
-                      <span className="font-semibold">£192 GBP</span>
+                      <span className="font-semibold">£160 GBP</span>
                     </div>
                     <div className="flex justify-between text-off-white">
                       <span>Full course (24 sessions)</span>
-                      <span className="font-semibold">£576 GBP</span>
+                      <span className="font-semibold">£480 GBP</span>
                     </div>
                   </div>
 
@@ -263,7 +263,7 @@ const Courses = () => {
                   <div className="flex items-center justify-center gap-2 mb-4">
                     <PoundSterling className="w-8 h-8 text-gold" />
                     <span className="text-5xl font-serif font-bold text-off-white">
-                      15
+                      14
                     </span>
                     <span className="text-off-white/70 text-lg">
                       GBP per session
@@ -276,11 +276,11 @@ const Courses = () => {
                   <div className="space-y-4">
                     <div className="flex justify-between text-off-white">
                       <span>Monthly fee (8 sessions)</span>
-                      <span className="font-semibold">£120 GBP</span>
+                      <span className="font-semibold">£112 GBP</span>
                     </div>
                     <div className="flex justify-between text-off-white">
                       <span>Full course (24 sessions)</span>
-                      <span className="font-semibold">£360 GBP</span>
+                      <span className="font-semibold">£336 GBP</span>
                     </div>
                   </div>
 

@@ -216,12 +216,13 @@ const Courses = () => {
         <div className="section-container">
           <SectionHeading
             title="Course Fees"
-             description="Stop settling for cheap apps or overpaying for £40/hour tutors. KCA delivers a structured, £240-value British immersion experience for a cut-rate, competitive and sustainable £160 monthly fee (and £112 for our KCA Global Access and Support Place Scheme). 
-
-        Designed for students, professionals and all ambitious learners aged 16+ (no maximum age), we provide 177% more speaking practice than traditional classes. Led by a Level 5 TEFL certified Principal with professional real-world industry communication experience. 
-
-        Your journey includes our collaborative Mid-Course Group Presentation Project and our Exclusive KCA International Community Movie/Film Sessions (included in the monthly fee at no extra cost), where the entire academy joins together live. KCA brings the UK and the wider English-speaking world to you in the comfort of your homes for a fraction of the cost—delivered at an unbeatable global standard."
-            subtitle="Transparent pricing with monthly payment structure."
+            subtitle="Stop settling for cheap apps or overpaying for £40/hour tutors. KCA delivers a structured, £240-value British immersion experience for a cut-rate, competitive and sustainable £160 monthly fee (and £112 for our KCA Global Access and Support Place Scheme).
+            
+            Designed for students, professionals and all ambitious learners aged 16+ (no maximum age), we provide 177% more speaking practice than a traditional classes. Led by a Level 5 TEFL certified Principal with professional real-world industry communication experience, your journey includes our collaborative Mid-Course Group Presentation Project and our Exclusive KCA International Community Movie/Film Sessions (included in the monthly fee at no extra cost), a full course curriculum and more.
+            
+            We’ve built KCA to ensure that world-class British expertise and a fair chance at success are accessible to every serious learner, regardless of their background. KCA brings the UK and the wider English-speaking world to you in the comfort of your homes for a fraction of the cost, delivered at an unbeatable global standard.
+            
+            Transparent pricing with a monthly payment structure."
             light
           />
   

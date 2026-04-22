@@ -216,15 +216,21 @@ const Courses = () => {
         <div className="section-container">
           <SectionHeading
             title="Course Fees"
-            subtitle="Stop settling for cheap apps or overpaying for £40/hour tutors. KCA delivers a structured, £240-value British immersion experience for a cut-rate, competitive and sustainable £160 monthly fee (and £112 for our KCA Global Access and Support Place Scheme).
-            
-            Designed for students, professionals and all ambitious learners aged 16+ (no maximum age), we provide 177% more speaking practice than a traditional classes. Led by a Level 5 TEFL certified Principal with professional real-world industry communication experience, your journey includes our collaborative Mid-Course Group Presentation Project and our Exclusive KCA International Community Movie/Film Sessions (included in the monthly fee at no extra cost), a full course curriculum and more.
-            
-            We’ve built KCA to ensure that world-class British expertise and a fair chance at success are accessible to every serious learner, regardless of their background. KCA brings the UK and the wider English-speaking world to you in the comfort of your homes for a fraction of the cost, delivered at an unbeatable global standard.
-            
-            Transparent pricing with a monthly payment structure."
+            subtitle="Transparent pricing with a monthly payment structure."
             light
           />
+          
+          <div className="max-w-4xl mx-auto mt-6 mb-12 text-off-white/70 text-sm md:text-base text-center space-y-6">
+        <p>
+          Stop settling for cheap apps or overpaying for £40/hour tutors. KCA delivers a structured, £240-value British immersion experience for a cut-rate, competitive and sustainable £160 monthly fee (and £112 for our KCA Global Access and Support Place Scheme).
+        </p>
+        <p>
+          Designed for students, professionals and all ambitious learners aged 16+ (no maximum age), we provide 177% more speaking practice than a traditional class. Led by a Level 5 TEFL certified Principal with professional real-world industry communication experience, your journey includes our collaborative Mid-Course Group Presentation Project and our Exclusive KCA International Community Movie/Film Sessions (included in the monthly fee at no extra cost) with a full course curriculum and more.
+        </p>
+        <p>
+          We’ve built KCA to ensure that world-class British expertise and a fair chance at success are accessible to every serious learner, regardless of their background. KCA brings The UK and the wider English-speaking world to you in the comfort of your homes for a fraction of the cost, delivered at an unbeatable global standard.
+        </p>
+      </div>
   
           <div className="flex justify-center items-center flex-col lg:flex-row gap-10 lg:gap-12">
             <div className="max-w-lg">

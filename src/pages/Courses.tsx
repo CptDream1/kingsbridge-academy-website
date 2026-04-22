@@ -302,7 +302,7 @@ const Courses = () => {
                       countries for those with genuine financial needs subject to KCA final approval during detailed enrolment process — same expert coaching, more accessible pricing.
                       Fees are paid monthly in advance.{" "}
                       <a
-                        href="/documents/KCA Global Support Access Scheme list.pdf"
+                        href="/documents/KCA Global Support Access Scheme list Official.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gold underline underline-offset-2 hover:text-off-white transition-colors"

@@ -7,31 +7,31 @@ const policies = [
     title: "Terms and Conditions",
     description:
       "The complete terms governing the use of our services, including student responsibilities, academy obligations, and the educational agreement.",
-    file: "/documents/Terms_and_Conditions_KCA_2026.pdf",
+    file: "/documents/FINAL_Terms_and_Conditions_KCA_MAY2026.pdf",
   },
   {
     title: "Privacy Policy",
     description:
       "How we collect, use, protect, and handle personal information in accordance with data protection regulations.",
-    file: "/documents/Privacy_Policy_KCA_2026.pdf",
+    file: "/documents/FINAL_Privacy_Policy_KCA_MAY2026.pdf",
   },
   {
     title: "Refund Policy",
     description:
       "Our policy regarding fee refunds, including eligibility criteria, timelines, and the process for requesting refunds.",
-    file: "/documents/Refund_Policy_KCA_2026.pdf",
+    file: "/documents/FINAL_Refund_Policy_KCA_MAY2026.pdf",
   },
   {
     title: "Attendance and Certification Policy",
     description:
       "Requirements for course attendance, participation expectations, and the criteria for certification upon completion.",
-    file: "/documents/Attendance_and_Certification_Policy_KCA_2026.pdf",
+    file: "/documents/FINAL_Attendance_and_Certification_Policy_KCA_MAY2026.pdf",
   },
   {
     title: "Student Code of Conduct",
     description:
       "Expected standards of behaviour, communication guidelines, and the values we uphold in our learning community.",
-    file: "/documents/Student_Code_of_Conduct_KCA_2026.pdf",
+    file: "/documents/FINAL_Student_Code_of_Conduct_KCA_MAY2026.pdf",
   },
 ];
 

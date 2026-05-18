@@ -61,7 +61,7 @@ const Policies = () => {
         <div className="section-container">
           <SectionHeading
             title="Academy Policies"
-            subtitle="All policies are effective from 1 January 2026. Please review these documents carefully before enrolment."
+            subtitle="All policies are effective from 1 May 2026. Please review these documents carefully before enrolment."
           />
 
           <div className="max-w-3xl mx-auto space-y-6">
@@ -83,7 +83,7 @@ const Policies = () => {
                     </p>
                     <div className="flex items-center justify-between">
                       <span className="text-xs text-muted-foreground">
-                        Effective Date: 1 January 2026
+                        Effective Date: 1 May 2026
                       </span>
                       <a
                         href={policy.file}
